@@ -14,11 +14,11 @@ jobs:
     steps:
     # 1. GitHub上にアップロードしたあなたのコード一式を、クラウド環境にコピー（展開）
     - name: Checkout repository code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     # 2. クラウド環境にPythonをセットアップ
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.11'
 
