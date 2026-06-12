@@ -1,0 +1,5 @@
+.env/
+__pycache__/
+.DS_Store
+test_rss.py
+test_summary_no_gemini.py
